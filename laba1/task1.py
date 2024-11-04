@@ -1,5 +1,5 @@
 oklad = input()
-while not (oklad.isdigit()):
+while not oklad.isdigit():
     oklad = input('Введите оклад: ')
 
 premia = int(oklad) * (2 / 3)

@@ -12,15 +12,15 @@ def check(s):
 
 x, y, z = 'a', 'a', 'a'
 
-while not (check(x)):
+while not check(x):
     print('Введите вектор OX')
     x = input()
 
-while not (check(y)):
+while not check(y):
     print('Введите вектор OY')
     y = input()
 
-while not (check(z)):
+while not check(z):
     print('Введите вектор OZ')
     z = input()
 
