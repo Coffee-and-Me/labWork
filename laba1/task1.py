@@ -1,4 +1,4 @@
-oklad = input()
+oklad = 'a'
 while not oklad.isdigit():
     oklad = input('Введите оклад: ')
 
