@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa832435-06a1-4ea4-9114-f26e102c4feb" name="Changes" comment="laba2_2">
-      <change beforePath="$PROJECT_DIR$/laba2/laba4.py" beforeDir="false" afterPath="$PROJECT_DIR$/laba2/laba4.py" afterDir="false" />
+    <list default="true" id="fa832435-06a1-4ea4-9114-f26e102c4feb" name="Changes" comment="laba2_4">
+      <change afterPath="$PROJECT_DIR$/laba3/laba3_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laba3/laba3_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/laba3/laba3_1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +71,14 @@
       <option name="project" value="LOCAL" />
       <updated>1730765743566</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="laba2_4">
+      <created>1730766203236</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730766203236</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -86,6 +95,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="laba2_1" />
     <MESSAGE value="laba2_2" />
-    <option name="LAST_COMMIT_MESSAGE" value="laba2_2" />
+    <MESSAGE value="laba2_4" />
+    <option name="LAST_COMMIT_MESSAGE" value="laba2_4" />
   </component>
 </project>
