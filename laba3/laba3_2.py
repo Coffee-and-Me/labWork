@@ -24,6 +24,5 @@ while not n_one.isdigit():
 while not n_two.isdigit():
     n_two = input("Введите второе число: ")
 
-
 print(nod(int(n_one), int(n_two)))
 print(gcd(int(n_one), int(n_two)))
