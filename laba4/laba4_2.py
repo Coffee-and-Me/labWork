@@ -8,7 +8,21 @@ def check(num: str):
 
 def progrssia_sum(b, n, q):
     if n==1:
-        return 1
+        return b
     return b + progrssia_sum(b*q, n-1, q)
 
-print(progrssia_sum(2,3,2))
+element = q = n = 'e'
+while not check(element):
+    element = input('Введите первый член прогрессии: ')
+
+while not check(q):
+    q = input('Введите множитель: ')
+
+while not check(n):
+    n = input('Введите искомый член прогрессии: ')
+
+element = int(element)
+q = int(q)
+n = int(n)
+
+print(progrssia_sum(element ,n, q))

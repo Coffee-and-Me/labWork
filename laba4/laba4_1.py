@@ -12,4 +12,18 @@ def progrssia(b, n):
         return 1
     return progrssia(b, n-1) * b
 
-print(-3*progrssia(4, 5))
+element = q = n = 'e'
+while not check(element):
+    element = input('Введите первый член прогрессии: ')
+
+while not check(q):
+    q = input('Введите множитель: ')
+
+while not check(n):
+    n = input('Введите искомый член прогрессии: ')
+
+element = int(element)
+q = int(q)
+n = int(n)
+
+print(element*progrssia(q, n))
