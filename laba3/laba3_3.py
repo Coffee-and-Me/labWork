@@ -1,32 +1,18 @@
-from datetime import datetime, strptime
-
-time_out = time_in = ''
-ls = []
+from datetime import datetime
 
 while 1:
     try:
-        str = input("Введите год, месяц, день, час, минуту отбытия через пробел: ")
-        str = str.split()
-
-        for i in range(0, len(str)):
-            ls.append(int(str[i]))
-
-        time_out = datetime(ls[0], ls[1], ls[2], ls[3], ls[4])
-
+        str = input("Введите год, месяц, день, час, минуту отбытия через точку: ")
+        time_out = datetime.strptime(str, '%Y.%m.%d.%H.%M')
     except ValueError:
         print('Введены некорректные данные')
     else:
         break
-ls = []
+
 while 1:
     try:
-        strg = input("Введите год, месяц, день, час, минуту прибытия через пробел: ")
-        strg = strg.split()
-
-        for i in range(0, len(strg)):
-            ls.append(int(strg[i]))
-
-        time_in = datetime(ls[0], ls[1], ls[2], ls[3], ls[4])
+        str = input("Введите год, месяц, день, час, минуту прибытия через точку: ")
+        time_in = datetime.strptime(str, '%Y.%m.%d.%H.%M')
 
     except ValueError:
         print('Введены некорректные данные')

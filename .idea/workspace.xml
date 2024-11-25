@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fa832435-06a1-4ea4-9114-f26e102c4feb" name="Changes" comment="laba3_2" />
+    <list default="true" id="fa832435-06a1-4ea4-9114-f26e102c4feb" name="Changes" comment="laba3_2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laba3/laba3_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/laba3/laba3_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laba3/laba3_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/laba3/laba3_4.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1731979513273</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="laba3_2">
+      <created>1732440310455</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732440310455</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
