@@ -1,3 +1,6 @@
+from sys import setrecursionlimit
+setrecursionlimit(1_000_000)
+
 def check(num: str):
     try:
         num = int(num)

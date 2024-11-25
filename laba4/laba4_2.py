@@ -1,9 +1,14 @@
+from sys import setrecursionlimit
+setrecursionlimit(1_000_000)
+
 def check(num: str):
     try:
         num = int(num)
     except ValueError:
         return False
     else:
+        if num < 0:
+            return False
         return True
 
 def progrssia_sum(b, n, q):
