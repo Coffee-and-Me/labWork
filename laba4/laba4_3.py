@@ -1,5 +1,7 @@
 from sys import setrecursionlimit
+
 setrecursionlimit(1_000_000)
+
 
 def check(num: str):
     try:
@@ -11,10 +13,12 @@ def check(num: str):
             return False
         return True
 
+
 def arif_progr(a1, d, n):
-    if n==1:
+    if n == 1:
         return a1
-    return arif_progr(a1, d, n-1) + d
+    return arif_progr(a1, d, n - 1) + d
+
 
 element = q = n = 'e'
 while not check(element):
