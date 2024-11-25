@@ -5,18 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fa832435-06a1-4ea4-9114-f26e102c4feb" name="Changes" comment="laba3_2">
-      <change afterPath="$PROJECT_DIR$/laba4/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laba4/.idea/labatory.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laba4/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laba4/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laba4/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laba4/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laba4/laba4_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laba4/laba4_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/laba4/laba4_3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laba3/laba3_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/laba3/laba3_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laba3/laba3_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/laba3/laba3_2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laba3/laba3_3.py" beforeDir="false" afterPath="$PROJECT_DIR$/laba3/laba3_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/labWork" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laba4/laba4_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/laba4/laba4_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laba4/laba4_4.py" beforeDir="false" afterPath="$PROJECT_DIR$/laba4/laba4_4.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

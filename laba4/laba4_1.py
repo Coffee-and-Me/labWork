@@ -7,6 +7,8 @@ def check(num: str):
     except ValueError:
         return False
     else:
+        if num < 0:
+            return False
         return True
 
 def progrssia(b, n):
