@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 from math import gcd
+=======
+rom math import gcd
+>>>>>>> 2b3cd06c7e3a1a1741c55793d2933f7128f48958
 
 
 def nod(num_one, num_two):

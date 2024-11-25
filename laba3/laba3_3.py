@@ -21,4 +21,8 @@ while 1:
 
 print(time_out)
 print(time_in)
+<<<<<<< HEAD
 print(f"Путь займёт {time_in - time_out}")
+=======
+print(f"Путь займёт {time_in - time_out}")
+>>>>>>> 2b3cd06c7e3a1a1741c55793d2933f7128f48958
