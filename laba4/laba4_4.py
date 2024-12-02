@@ -1,4 +1,5 @@
 from sys import setrecursionlimit
+
 setrecursionlimit(1_000_000)
 
 def check(num: str):
@@ -10,15 +11,14 @@ def check(num: str):
         if num < 0:
             return False
         return True
-def conv(n, base):
-    rel = ''
-    symb = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-    while (n > 0):
-        k = n % base
-        rel = symb[k] + rel
-        n = n // base
 
-    return rel
+
+def conv(n, base):
+    if n == 0:
+        return 0
+    else:
+        return conv(n // 2) * 10 + n % 2
+
 
 n = 'e'
 while not check(n):
@@ -26,4 +26,4 @@ while not check(n):
 
 n = int(n)
 
-print(f'Число {n} в двоичном представлении: {conv(n, 2)}')
+print(f'Число {n} в двоичном представлении: {conv(n)}')
