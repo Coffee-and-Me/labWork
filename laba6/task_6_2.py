@@ -1,6 +1,6 @@
 import re
 
-st = input()
+st = input('Строка: ')
 st = st.strip().lower().capitalize()
 
 st = re.sub(r'[\.\?\!]+$', '', st)
