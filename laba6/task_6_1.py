@@ -4,7 +4,7 @@ while 1:
     st = input('Название файла: ')
     if st == '':
         exit()
-    res = re.fullmatch(r'^[^<>\\|?*       ]+(\.txt|\.doc|\.docx|\.odt|\.rtf)$', st)
+    res = re.fullmatch(r'^[^<>\\|?*]+(\.txt|\.doc|\.docx|\.odt|\.rtf)$', st)
     if res:
         print('Данная строка может быть названием файла')
     else:

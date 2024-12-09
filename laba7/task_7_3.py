@@ -1,4 +1,4 @@
-ef get_val(dictr, n):
+def get_val(dictr, n):
     for key, val in dictr.items():
         if val == n:
             return key
