@@ -4,7 +4,6 @@ def arif(lst):
         sum += i
     return sum / len(lst)
 
-
 rating = {
     'Иванов': 20,
     'Сидоров': 68,
