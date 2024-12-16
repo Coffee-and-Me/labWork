@@ -19,4 +19,12 @@ def func(file: str = 'book.txt'):
     return res
 
 
-print(func())
+if os.path.exists('book.txt'):
+    with open('Content.txt', 'w', encoding='utf-8') as f:
+        f.write('Оглавление\n')
+        for i in func():
+            f.write(i+'\n')
+    print('Всё выполнялось корректно')
+else:
+    print('Такого файла не существует')
+    exit()
