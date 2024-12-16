@@ -1,5 +1,4 @@
 import os
-import re
 
 
 def func(count: int, file: str = 'text.txt'):
@@ -24,7 +23,7 @@ def func(count: int, file: str = 'text.txt'):
         if len(matrix[i]) > count:
             buf = ' '.join(matrix[i])
             res += f' {buf}'
-        #print(' '.join(matrix[i]))
+        # print(' '.join(matrix[i]))
     return res
 
 
@@ -32,7 +31,7 @@ new_lst = []
 res = ''
 try:
     num = int(input('Напишите число: '))
-except:
+except ValueError:
     print('Error')
     exit()
 else:
