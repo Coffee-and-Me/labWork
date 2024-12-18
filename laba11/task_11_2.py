@@ -33,6 +33,7 @@ try:
     num = int(input('Напишите число: '))
     if num < 0:
         raise ValueError
+
 except ValueError:
     print('Error')
     exit()

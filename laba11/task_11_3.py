@@ -30,6 +30,7 @@ while True:
         num = int(input("Сколько предложений вы хотите сгенерировать? "))
         if num < 0:
             raise ValueError
+
     except ValueError:
         print("Введите число.")
 
