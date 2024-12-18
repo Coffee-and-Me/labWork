@@ -28,6 +28,8 @@ def generate_phr(phrs: list, count: int):
 while True:
     try:
         num = int(input("Сколько предложений вы хотите сгенерировать? "))
+        if num < 0:
+            raise ValueError
     except ValueError:
         print("Введите число.")
 

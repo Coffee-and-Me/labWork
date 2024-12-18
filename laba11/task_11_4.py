@@ -21,9 +21,9 @@ def func(file: str = 'book.txt'):
 
 if os.path.exists('book.txt'):
     with open('Content.txt', 'w', encoding='utf-8') as f:
-        f.write('Оглавление\n')
+        f.write('Оглавление\n\n')
         for i in func():
-            f.write(i+'\n')
+            f.write(i + '\n')
     print('Всё выполнялось корректно')
 else:
     print('Такого файла не существует')

@@ -2,6 +2,7 @@ import os
 
 lst = []
 
+
 def func(remv: int, file: str = "input.txt"):
     with open(file, 'r') as f:
         try:
@@ -16,11 +17,11 @@ def func(remv: int, file: str = "input.txt"):
     with open('output.txt', 'w') as f:
         f.write(lst)
 
-#os.chdir('labWork/laba10')
-#print(os.listdir(path='.'))
 
 try:
     num = int(input('Напишите число: '))
+    if num < 0:
+        raise ValueError
 except:
     print('Error')
     exit()
